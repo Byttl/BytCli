@@ -71,7 +71,7 @@ func main() {
 		return
 	}
 
-	if resp.StatusCode != 200 {
+	if resp.StatusCode != 201 {
 		fmt.Println(result["error"].(string))
 	} else {
 		fmt.Println("wget", result["file"].(string))
