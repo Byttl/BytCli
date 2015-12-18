@@ -43,7 +43,7 @@ func main() {
 		return
 	}
 
-	req, err := http.NewRequest("POST", "http://byt.tl/f/upload", body)
+	req, err := http.NewRequest("POST", "http://byt.tl/upload", body)
 	if err != nil {
 		fmt.Println(err)
 		return
